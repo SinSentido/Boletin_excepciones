@@ -27,7 +27,7 @@ public class Ejercicio7 {
 		 *		4.3 Cuando el jugador2 se plante o se pase acabará su turno.
 		 *5. Se comparan las manos de los jugadores. El jugador ganador se lleva el bote de las apuestas. 
 		 *	 Si empatan cada uno se lleva su parte.
-		 *6. Al finalizar la ronda se preguna a los jugadores si quieren seguir jugando pero en caso de que uno de
+		 *6. Al finalizar la ronda se pregunta a los jugadores si quieren seguir jugando pero en caso de que uno de
 		 *	 los jugadores se quede sin dinero la partida acaba.
 		 * */
 		
@@ -306,6 +306,9 @@ public class Ejercicio7 {
 					         +"  ||  ||   ||      ||  ||  ||      ||  ||       ||  ||  ||  ||      ||  ||%n"
 					         +"  ||  ||   ||      ||  ||  ||      ||  ||   ||  ||  ||  ||  ||      ||  ||%n"
 					         +"||||||||   ||||||  ||  ||  ||||||  ||  ||   ||||||  ||  ||  ||||||  ||  ||%n%n");
+		}
+		else {
+			System.out.println("Introduce un parametro válido");
 		}
 	}
 }
